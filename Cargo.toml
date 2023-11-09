@@ -1,0 +1,19 @@
+[package]
+name = "ngt-cxx-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chan = "0.1.23"
+chrono = "0.4.31"
+cxx = "1.0.110"
+hdf5 = "0.8.1"
+ndarray = "0.15.6"
+procfs = "0.16.0"
+
+[build-dependencies]
+cmake = "0.1.50"
+cxx-build = "1.0.110"
+miette = { version = "5.10.0", features = ["fancy"] }
